@@ -25,7 +25,8 @@ and makes adding, modifying, sorting, reporting and marking done, fast, easy and
 
 This plugin requires Taskwarrior 2.3.0 or higher. see: https://taskwarrior.org/download/
 
-Vim version 8.x is suggested. (7.x might still be fine, but will not be supported.)
+Neovim version 0.3 is suggested.
+Vim version 8.x might have issues for shortcut keys. (https://github.com/xarthurx/taskwarrior.vim/issues/1)
 
 Suggested plugins
 
