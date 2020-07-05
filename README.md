@@ -4,6 +4,23 @@ _a vim interface for [Taskwarrior](https://taskwarrior.org)_
 
 ![screenshot](https://raw.githubusercontent.com/xarthurx/taskwarrior.vim/master/screenshot.png)
 
+## Notice
+
+**2020-07**
+
+As I used more with the plugin, I found a need for syncing my jobs on the phone. This is clearly not very easy task to setup with the original taskwarrior software.
+Also, the last release of the taskwarrior was more than 4 years ago [last release](https://taskwarrior.org/download/), which make me feels the softwarrior is abandoned or not suitable for the work nowadays.
+
+I switched to [*Microsoft To-Do*](https://todo.microsoft.com/tasks/) for half a year and things went on quite smooth.
+
+Unfortunately, they don't provide a python API now and I don't see a possibility to incorporate it into VIM. At the mean time, WSL2 is about to coming out.
+
+I'll wait for a while to decide if it make sense to continue the project any longer.
+Any suggestions are welcome in the *issues*.
+
+
+## Introduction
+
 **This repo is forked from [blindFS/vim-taskwarrior](https://github.com/blindFS/vim-taskwarrior) for maintenance and development.**
 
 ----
