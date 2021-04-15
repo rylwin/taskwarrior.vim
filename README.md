@@ -6,6 +6,14 @@ _a vim interface for [Taskwarrior](https://taskwarrior.org)_
 
 ## Notice
 
+**2021-04**
+After WSL 2 released, I came back to look at this GTD system again, and found [VIT](https://github.com/vit-project/vit).
+It has both distribution release and `python` version that you can install with `pip`.
+
+The program is very similar to what `taskwarrior.vim` provides and I feel continuing this plugin is somewhat repetitive.
+Please check out it if you came here.
+
+
 **2020-07**
 
 As I used more with the plugin, I found a need for syncing my jobs on the phone. This is clearly not very easy task to setup with the original taskwarrior software.

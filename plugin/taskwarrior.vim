@@ -15,13 +15,14 @@ else
 endif
 
 " override from vimrc
-let g:tw_cmd                        = get(g:, 'taskwarrior_cmd', 'task')
-" let g:tw_grep                       = get(g:, 'taskwarrior_grep_cmd', 'grep')
+let g:tw_cmd                        = get(g:, 'taskwarrior_cmd', g:tw_cmd)
+let g:tw_grep                       = get(g:, 'taskwarrior_grep_cmd', g:tw_grep)
 
-" if !executable(system(g:tw_cmd))
-    " echoerr "This plugin depends on taskwarrior(https://taskwarrior.org)."
-    " finish
-" endif
+" not working for wsl task
+ "if !executable(system(g:tw_cmd))
+     "echoerr "This plugin depends on taskwarrior(https://taskwarrior.org)."
+     "finish
+ "endif
 
 " global variable settings
 let g:task_report_command           = get(g:, 'task_report_command', [])
@@ -88,9 +89,9 @@ command! TWEditVitrc :execute "e ".$HOME."/.vitrc"
 command! TWEditTaskopenrc :execute "e ".$HOME."/.taskopenrc"
 "command! TWExport
 "command! TWHelp
-command! TWHistory :Unite task/history
+"command! TWHistory :Unite task/history
 command! TWHistoryClear :call taskwarrior#log#history('clear')
-command! TWBookmark :Unite task/bookmark
+"command! TWBookmark :Unite task/bookmark
 command! TWBookmarkClear :call taskwarrior#log#bookmark('clear')
 "command! TWInsert
 "command! TWImport
