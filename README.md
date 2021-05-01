@@ -9,11 +9,11 @@ _a vim interface for [Taskwarrior](https://taskwarrior.org)_
 **2021-04**
 After WSL 2 released, I came back to look at the `TaskWarrior` system again, and found [taskwarrior-tui](https://github.com/kdheepak/taskwarrior-tui).
 
-An alternative is the [VIT](https://github.com/vit-project/vit), which has longer history and has both distribution release and `python` version that you can install with `pip`.
+(An alternative is the [VIT](https://github.com/vit-project/vit), which has longer history and has both distribution release and `python` version that you can install with `pip`.)
 
 These programs provides similar aim to what `taskwarrior.vim` would like to achieve and I feel continuing this plugin is somewhat repetitive.
 
-My personal preference goes to `taskwarrior-tui`. The interface is written in `Rust`, runs faster and has better framework setup, as well as better user interaction. I'll contribute to that project instead of continuing `taskwarrior.vim`.
+My personal preference goes to [taskwarrior-tui](https://github.com/kdheepak/taskwarrior-tui). The interface is written in `Rust`, runs faster and has better framework setup, as well as better user interaction. I'll contribute to that project instead of continuing `taskwarrior.vim`.
 
 ## Introduction
 
