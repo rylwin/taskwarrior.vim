@@ -2,7 +2,7 @@ taskwarrior.vim
 ===============
 _a vim interface for [Taskwarrior](https://taskwarrior.org)_
 
-![screenshot](https://raw.githubusercontent.com/xarthurx/taskwarrior.vim/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/xarthurx/taskwarrior.vim/master/screenshot.gif)
 
 ## Notice
 
