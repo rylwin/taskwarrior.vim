@@ -126,7 +126,7 @@ function! taskwarrior#action#annotate(op)
   endif
   if a:op == 'add'
     let annotation = input('new annotation:', '', 'file')
-    call taskwarrior#system_call(uuid, ' annotate ', annotation, 'silent')
+    call taskwarrior#system_call(uuid, ' annotate ', shellescape(annotation), 'silent')
   elseif a:op == 'del'
     let annotation = input('annotation pattern to delete:')
     call taskwarrior#system_call(uuid, ' denotate ', annotation, 'silent')
